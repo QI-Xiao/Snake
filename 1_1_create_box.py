@@ -1,10 +1,14 @@
-#encoding: utf8
+# encoding: utf-8
+
 """
 创建每次启动游戏随机生成一个位置的蓝色方块
 """
+
 import pygame
 from pygame.locals import *
+
 import random
+
 pygame.init() # 初始化 pygame 各模块
 
 edge = 20 # 格子大小
